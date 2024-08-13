@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Filkom</string>
+    <string name="app_name2">Soul</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Screening</string>
+    <string name="title_notifications">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="onboard1">Hello!</string>
+    <string name="onboard2">FilkomSoul is an application for Faculty of Computer Science, Brawijaya University students to care more about mental health through:</string>
+    <string name="onboarddetail1">Early depression test</string>
+    <string name="onboarddetail2">Mental health education</string>
+    <string name="onboarddetail3">Counselling FILKOM</string>
+    <string name="btnMulai">Start</string>
+    <string name="registTitle">ID Information</string>
+    <string name="registInput">Student Identity Card</string>
+    <string name="registInput2">Full Name</string>
+    <string name="registChoose1">Male</string>
+    <string name="registChoose2">Female</string>
+    <string name="btnDaftar">Enter</string>
+    <string name="emptyError">Sorry, this data can\'t be empty</string>
+    <string name="registAfirm">I understand the screening results in FilkomSoul are not definitive results</string>
+    <string name="internet">Make sure the internet connection is connected for a better update data</string>
+    <string name="internetNews">Make sure the internet connection is connected to access news</string>
+
+    <string name="emptyGender">Make sure you have filled in the gender</string>
+    <string name="emptyApp">Make sure you have agreed to the application terms</string>
+    <string name="hometitle1">Lets get to know more</string>
+    <string name="homesubtitle1_1">FILKOM UB Counselling Service</string>
+    <string name="hometitle2">Welcome to FilkomSoul</string>
+    <string name="homesubtitle2_1">FilkomSoul is a FILKOM student application to check their depression level with Depression Screening.</string>
+
+    <string name="hometitle3">Lets get early detection so you are aware of your condition</string>
+    <string name="homesubtitle3_1">Final results from Depression Screening </string>
+    <string name="homesubtitle3_2">Lets Test Again</string>
+    <string name="homesubtitle3_3">Test Detail</string>
+
+    <string name="hometitle4">Filkom Soul Portal</string>
+    <string name="homesubtitle4_1">See</string>
+    <string name="mewstitle">Filkom Soul Portal</string>
+
+    <string name="screeningtitle">Depression Test</string>
+    <string name="screeningsub1">15 Minutes</string>
+    <string name="screeningsub2">30 Questions</string>
+    <string name="screeningsubtitle1">Harvard Health about Depression</string>
+    <string name="screeningsubtitle2">WHO Explanation</string>
+    <string name="btnscreening">Next</string>
+    <string name="screening1">1 (Almost never)</string>
+    <string name="screening2">2 (Very rarely)</string>
+    <string name="screening3">3 (Sometimes)</string>
+    <string name="screening4">4 (Often)</string>
+    <string name="screening5">5 (Very often)</string>
+    <string name="screeningnum">%1$d/30</string>
+    <string name="screeningerror">Please answer this question first</string>
+    <string name="major">%1$s (%2$s)</string>
+
+    <string name="resulttitle">Screening Test Result</string>
+    <string name="resultcontent1">Screnning Test Score</string>
+    <string name="resultcontent2">Summary</string>
+    <string name="resultcontent3"><u>This is NOT Definitive Result</u></string>
+    <string name="resultbtn1">Contact Counseling</string>
+    <string name="resultbtn2">Back to Homepage</string>
+    <string name="result1">Low</string>
+    <string name="result2"><u>Relative</u></string>
+    <string name="result3">Heavy</string>
+    <string name="result4">Very Heavy</string>
+
+    <string name="screeningcontent">The depression screening test using the USDI (University Student Depression Inventory) has a positive impact on students by increasing awareness of mental well-being, detecting early symptoms of depression, and providing the basis for the FILKOM UB counseling service program. The goal to be achieved is for students to get early support and increase efforts in managing mental well-being.</string>
+    <string name="counselingpoptitle">Contact FILKOM UB Counseling Service Through</string>
+    <string name="counselingpopsub1">Google Form</string>
+    <string name="counselingpopsub2">WhatsApp</string>
+    <string name="counselingpoperror">WhatsApp is not yet installed</string>
+
+    <string name="profilebtn1">Change Language</string>
+    <string name="profilebtn2">Screening Archive</string>
+    <string name="profilebtn3">About FilkomSoul</string>
+
+    <string name="archivetitle">Screening Archive</string>
+    <string name="archive1">Date:</string>
+    <string name="exit">Are you sure you want to exit application?</string>
+    <string name="exit2">Are you sure you want to out of the screening test? Progress will be lost</string>
+
+    <string name="abouttitle">About FilkomSoul</string>
+    <string name="aboutsubtitle1">What is FilkomSoul?</string>
+    <string name="aboutsubtitle2">FilkomSoul Creator</string>
+    <string name="aboutcontent1">FilkomSoul is an application developed as part of the thesis research of students at the Faculty of Computer Science, Brawijaya University. This application is for FILKOM UB students who need mental health screening, mental health education, and integration with FILKOM UB counseling services. This application was possible thanks to assistance from the Counseling Service, lecturers and staff, as well as the FILKOM UB IT team. </string>
+    <string name="aboutcontent2">Alexander Rama Giofran Informatics Engineering 2020 Bandung, March 28th 2002 Android Developer</string>
+    <string name="aboutcontent3">Contact me through</string>
+
+    <string name="screeningguuide">Working Guide</string>
+    <string name="guidecontent">30 questions to measure lethargy, academic motivation, and emotions with options:</string>
+    <string name="onecontent">Almost Never \n(Several times a year / less)</string>
+    <string name="twocontent">Quite Rare \n(Once a month / less)</string>
+    <string name="threecontent">Sometimes \n(Several times a month)</string>
+    <string name="fourcontent">Often \n(Once a week)</string>
+    <string name="fivecontent">Very Often \n(Several times a week)</string>
+
+    <string-array name="question">
+        <item>I am more tired than usual</item>
+        <item>I don\'t have the energy to study at my usual level</item>
+        <item>My energy is low</item>
+        <item>I find it difficult to concentrate</item>
+        <item>I don\'t feel rested even after sleeping</item>
+        <item>The challenges I faced in college overwhelmed me</item>
+        <item>My mood affects my ability to carry out assigned tasks</item>
+        <item>Daily work takes longer than usual</item>
+        <item>My educational studies are disrupted by disturbing thoughts</item>
+        <item>I wonder if life is worth living</item>
+        <item>I feel worthless</item>
+        <item>I have thought about killing myself</item>
+        <item>I feel like no one cares about me</item>
+        <item>I feel empty</item>
+        <item>I feel sad</item>
+        <item>I am worried, I can\'t do anything</item>
+        <item>Activities that I used to enjoy no longer interest me</item>
+        <item>I feel like I can\'t control my emotions</item>
+        <item>I spend more time alone than usual</item>
+        <item>I feel disappointed in myself</item>
+        <item>I feel self-conscious when I am around other people</item>
+        <item>I didn\'t handle the problem well</item>
+        <item>I think other people are better than me</item>
+        <item>I have no desire to go to college</item>
+        <item>I rarely attend lectures like I used to</item>
+        <item>I dont feel motivated to study</item>
+        <item>I feel like going to college is pointless</item>
+        <item>I am having trouble starting a task</item>
+        <item>I dont find studying as interesting as before</item>
+        <item>I am having problems completing my study assignments</item>
+    </string-array>
+
+    <string name="summary4">Hasil pengisian kuesioner depresi menunjukkan anda mengalami gejala depresi yang sangat berat berdasarkan hasil skor antara 119 sampai 150. Anda mengalami kesulitan sangat berat dalam %1$s dalam diri. Melakukan konseling dan bantuan professional sangat dibutuhkan. Segera hubungi ahli kesehatan mental, teman, atau keluarga untuk mendapatkan dukungan dan bimbingan.</string>
+    <string name="summary3">Hasil pengisian kuesioner depresi menunjukkan anda mengalami gejala depresi yang berat berdasarkan hasil skor antara 95 sampai 118. Anda mulai berjuang dan menghadapi tantangan %1$s dalam diri. Sangat penting untuk memprioritaskan kesehatan mental anda, mencari bantuan profesional, dan berkomunikasi dengan orang terkasih.</string>
+    <string name="summary2">Hasil pengisian kuesioner depresi menunjukkan anda mengalami gejala depresi yang sedang berdasarkan hasil skor antara 74 sampai 94. Anda mulai mendapati kendala %1$s dalam diri. Dianjurkan untuk memperhatikan Kesehatan mental anda, menyesuaikan gaya hidup, dan mencari dukungan dari teman, keluarga, atau ahli kesehatan mental.</string>
+    <string name="summary1">Hasil pengisian kuesioner depresi menunjukkan anda mengalami gejala depresi yang ringan berdasarkan hasil skor dibawah 73. Anda masih dapat mengelola %1$s dalam diri. Penting untuk terus mempraktikkan kebiasaan kesehatan mental yang baik dan mencari dukungan jika diperlukan.</string>
+</resources>

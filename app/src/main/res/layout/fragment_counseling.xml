@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.screening.result.ResultActivity"
+    android:background="@drawable/backgroundpop"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.profile.ProfileFragment">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager2"
+            android:layout_width="160dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="16dp"
+            android:background="?colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/intersemibold"
+            android:text="@string/counselingpoptitle"
+            android:textAlignment="center"
+            android:textColor="?colorOnSecondary"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewPager2" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="56dp"
+            android:background="@drawable/btncircle2"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:src="@drawable/whatsapp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="56dp"
+            android:background="@drawable/btncircle2"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:src="@drawable/gform" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/intermedium"
+            android:text="@string/counselingpopsub2"
+            android:textColor="?colorOnSecondary"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/intermedium"
+            android:text="@string/counselingpopsub1"
+            android:textColor="?colorOnSecondary"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

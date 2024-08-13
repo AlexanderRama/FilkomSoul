@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentsc"
+    android:background="?colorSecondaryContainer"
+    tools:context=".ui.screening.ScreeningFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView2"
+        android:layout_width="122dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/picscreening"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/interbold"
+        android:text="@string/screeningtitle"
+        android:textColor="?colorOnSecondary"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/shapeableImageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/title1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/cardcream"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/shapeableImageView2"
+        app:layout_constraintTop_toBottomOf="@+id/title1">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/interregular"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="@string/screeningsub1"
+            android:textColor="?colorOnSecondary"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/title1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/cardbluelight"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/shapeableImageView2"
+        app:layout_constraintTop_toBottomOf="@+id/title1_1">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:fontFamily="@font/interregular"
+            android:text="@string/screeningsub2"
+            android:textColor="?colorOnSecondary"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2"
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="32dp"
+        android:background="?colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title1_2" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView4"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/interregular"
+        android:text="@string/screeningcontent"
+        android:textColor="?colorOnSecondary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager2" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="22dp"
+        android:background="?colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextView4" />
+
+    <LinearLayout
+        android:id="@+id/btnLinear1"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/cardblue"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:text="@string/screeningsubtitle1"
+            android:fontFamily="@font/interregular"
+            android:textSize="15sp"
+            android:textColor="?colorSecondaryContainer"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="28dp"
+            android:src="@drawable/btnweb"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnLinear2"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cardblue"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLinear1">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:fontFamily="@font/interregular"
+            android:text="@string/screeningsubtitle2"
+            android:textColor="?colorSecondaryContainer"
+            android:textSize="15sp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="28dp"
+            android:src="@drawable/btnweb" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMulai"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="?colorPrimaryContainer"
+        android:fontFamily="@font/intersemibold"
+        android:text="@string/btnMulai"
+        android:textAllCaps="false"
+        android:textColor="?colorSecondaryContainer"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLinear2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

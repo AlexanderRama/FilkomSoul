@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.screening.result.ResultActivity"
+    android:background="@drawable/backgroundpop"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.profile.ProfileFragment">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/intersemibold"
+            android:text="@string/screeningguuide"
+            android:textAlignment="center"
+            android:textColor="?colorOnSecondary"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/intermedium"
+            android:text="@string/guidecontent"
+            android:textAlignment="textStart"
+            android:textColor="?colorOnSecondary"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <LinearLayout
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btncircle2"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/interbold"
+                    android:text="1"
+                    android:textColor="?colorOnSecondary"
+                    android:textSize="26sp"
+                    app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/intermedium"
+                android:text="@string/onecontent"
+                android:textColor="?colorOnSecondary"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
+
+            <LinearLayout
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btncircle2"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/interbold"
+                    android:text="2"
+                    android:textColor="?colorOnSecondary"
+                    android:textSize="26sp"
+                    app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/intermedium"
+                android:text="@string/twocontent"
+                android:textColor="?colorOnSecondary"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <LinearLayout
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btncircle2"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/interbold"
+                    android:text="3"
+                    android:textColor="?colorOnSecondary"
+                    android:textSize="26sp"
+                    app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/intermedium"
+                android:text="@string/threecontent"
+                android:textColor="?colorOnSecondary"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <LinearLayout
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btncircle2"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/interbold"
+                    android:text="4"
+                    android:textColor="?colorOnSecondary"
+                    android:textSize="26sp"
+                    app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/intermedium"
+                android:text="@string/fourcontent"
+                android:textColor="?colorOnSecondary"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+            <LinearLayout
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btncircle2"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/interbold"
+                    android:text="5"
+                    android:textColor="?colorOnSecondary"
+                    android:textSize="26sp"
+                    app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/intermedium"
+                android:text="@string/fivecontent"
+                android:textColor="?colorOnSecondary"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout1"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout1"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMulai"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="22dp"
+            android:backgroundTint="?colorPrimaryContainer"
+            android:fontFamily="@font/intersemibold"
+            android:text="@string/btnMulai"
+            android:textAllCaps="false"
+            android:textColor="?colorSecondaryContainer"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

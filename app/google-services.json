@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511165896903",
+    "project_id": "filkomsoul",
+    "storage_bucket": "filkomsoul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511165896903:android:b734dd98c3f7e1849546e2",
+        "android_client_info": {
+          "package_name": "com.example.filkomsoul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbiG-gdlT4ef6sNZuE_IBm9_smtjqo_XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

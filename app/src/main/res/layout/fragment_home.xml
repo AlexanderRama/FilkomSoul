@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorSecondaryContainer">
+
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="360dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="94dp"
+        android:background="@drawable/gradient1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/interbold"
+            android:text="@string/hometitle2"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/intermedium"
+            android:text="@string/homesubtitle2_1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/gradient2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image"
+            android:layout_width="67dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/filkom" />
+
+        <LinearLayout
+            android:id="@+id/btnWeb"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="299dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/btncircle"
+            android:gravity="center">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/web" />
+        </LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/intermedium"
+            android:text="@string/hometitle1"
+            android:textColor="?colorOnSecondary"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="34dp"
+            android:fontFamily="@font/interbold"
+            android:text="@string/homesubtitle1_1"
+            android:textColor="?colorOnSecondary"
+            android:textSize="18sp"
+            android:maxLines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="360dp"
+        android:layout_height="244dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/cardcreamlight"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/intersemibold"
+            android:text="@string/hometitle3"
+            android:textColor="?colorOnSecondary"
+            android:maxLines="2"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:src="@drawable/picscreening"
+                android:alpha="1"
+                android:layout_marginStart="4dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/title1"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="2dp"
+                android:alpha="1"
+                android:fontFamily="@font/intersemibold"
+                android:text="@string/homesubtitle3_3"
+                android:textColor="@color/pnavy"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/title1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="30dp"
+                android:alpha="1"
+                android:background="@drawable/cardcream"
+                android:gravity="center">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:fontFamily="@font/interregular"
+                    android:text="@string/screeningsub1"
+                    android:textColor="?colorOnSecondary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/title1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="58dp"
+                android:alpha="1"
+                android:background="@drawable/cardbluelight"
+                android:gravity="center">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:fontFamily="@font/interregular"
+                    android:text="@string/screeningsub2"
+                    android:textColor="?colorOnSecondary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0">
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/progressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:indicatorSize="80dp"
+                    app:trackThickness="10dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    app:trackColor="@color/scream"
+                    app:indicatorColor="@color/sorange"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intersemibold"
+                    android:textColor="@color/sorange"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/title2"
+                android:layout_width="220dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="2dp"
+                android:alpha="0"
+                android:fontFamily="@font/intersemibold"
+                android:text="@string/homesubtitle3_1"
+                android:textColor="@color/pnavy"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/title2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginStart="99dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:alpha="0"
+                android:background="@drawable/cardresult2"
+                android:gravity="center">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intersemibold"
+                    android:textColor="@color/pnavy"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/sorange" />
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/interbold"
+                android:text="@string/homesubtitle3_2"
+                android:textColor="@color/pnavy"
+                android:textSize="18sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMulai"
+                android:layout_width="78dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="242dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="@color/pnavy"
+                android:textColor="@color/white"
+                android:fontFamily="@font/interregular"
+                android:text="@string/btnMulai"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/interbold"
+        android:text="@string/hometitle4"
+        android:textColor="?colorOnSecondary"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/intermedium"
+        android:text="@string/homesubtitle4_1"
+        android:textColor="?colorOnSecondary"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialTextView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/materialTextView3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listarchive"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextView3"
+        tools:listitem="@layout/item_news" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+</LinearLayout>

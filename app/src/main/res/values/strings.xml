@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Filkom</string>
+    <string name="app_name2">Soul</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Skrining</string>
+    <string name="title_notifications">Profil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="onboard1">Hallo!</string>
+    <string name="onboard2">FilkomSoul adalah aplikasi bagi mahasiswa Fakultas Ilmu Komputer Universitas Brawijaya untuk lebih peduli terhadap kesehatan mental melalui:</string>
+    <string name="onboarddetail1">Tes depresi dini</string>
+    <string name="onboarddetail2">Edukasi kesehatan jiwa</string>
+    <string name="onboarddetail3">Konseling FILKOM</string>
+    <string name="btnMulai">Mulai</string>
+    <string name="registTitle">Informasi Diri</string>
+    <string name="registInput">Nomor Induk Mahasiswa</string>
+    <string name="registInput2">Nama Lengkap</string>
+    <string name="registChoose1">Laki-laki</string>
+    <string name="registChoose2">Perempuan</string>
+    <string name="btnDaftar">Masuk</string>
+    <string name="emptyError">Maaf, data ini tidak boleh kosong</string>
+    <string name="registAfirm">Saya paham hasil tes skrining pada aplikasi bukan hasil diagnosa pasti</string>
+    <string name="internet">Pastikan koneksi internet terhubung untuk update data</string>
+    <string name="internetNews">Pastikan koneksi internet terhubung untuk akses berita</string>
+
+    <string name="emptyGender">Pastikan anda sudah mengisi jenis kelamin</string>
+    <string name="emptyApp">Pastikan anda sudah menyetujui ketentuan aplikasi</string>
+    <string name="hometitle1">Mari mengenal lebih dalam</string>
+    <string name="homesubtitle1_1">Layanan Konseling FILKOM UB</string>
+    <string name="hometitle2">Selamat Datang di FilkomSoul</string>
+    <string name="homesubtitle2_1">FilkomSoul adalah aplikasi mahasiswa FILKOM untuk memeriksa tingkat depresinya dengan Skrining Depresi.</string>
+    <string name="hometitle3">Ayo deteksi awal supaya kamu sadar dengan kondisimu</string>
+    <string name="homesubtitle3_1">Hasil terbaru dari Skrining Depresi </string>
+    <string name="homesubtitle3_2">Mulai Tes Depresi Lagi</string>
+    <string name="homesubtitle3_3">Detail Tes</string>
+
+    <string name="hometitle4">Portal Filkom Soul</string>
+    <string name="homesubtitle4_1">Lihat</string>
+    <string name="mewstitle">Filkom Soul Portal</string>
+
+    <string name="screeningtitle">Skrining Depresi</string>
+    <string name="screeningsub1">15 Menit</string>
+    <string name="screeningsub2">30 Pertanyaan</string>
+    <string name="screeningsubtitle1">Harvard Health about Depression</string>
+    <string name="screeningsubtitle2">WHO Explanation</string>
+    <string name="btnscreening">Selanjutnya</string>
+    <string name="screening1">1 (Hampir Tidak Pernah)</string>
+    <string name="screening2">2 (Sangat Jarang)</string>
+    <string name="screening3">3 (Kadang-kadang)</string>
+    <string name="screening4">4 (Sering)</string>
+    <string name="screening5">5 (Sangat Sering)</string>
+    <string name="screeningnum">%1$d/30</string>
+    <string name="screeningerror">Opsi jawaban harus dipilih terlebih dahulu</string>
+    <string name="major">%1$s (%2$s)</string>
+
+    <string name="resulttitle">Hasil Tes Skrining</string>
+    <string name="resultcontent1">Nilai Tes Skrining</string>
+    <string name="resultcontent2">Kesimpulan</string>
+    <string name="resultcontent3"><u>Ini Bukan Diagnosa Pasti</u></string>
+    <string name="resultbtn1">Hubungi Konseling</string>
+    <string name="resultbtn2">Kembali ke Beranda</string>
+    <string name="result1">Rendah</string>
+    <string name="result2"><u>Relatif</u></string>
+    <string name="result3">Berat</string>
+    <string name="result4">Sangat Berat</string>
+
+    <string name="screeningcontent">Tes skrining depresi menggunakan USDI (University Student Depression Inventory) memberikan dampak positif bagi mahasiswa dengan meningkatkan kesadaran akan kesejahteraan mental, mendeteksi dini gejala depresi, dan memberikan dasar untuk program layanan konseling FILKOM UB. Tujuan yang ingin dicapai supaya mahasiswa mendapatkan dukungan lebih awal dan meningkatkan upaya dalam manajemen kesejahteraan mental.</string>
+    <string name="counselingpoptitle">Hubungi Layanan Konseling FILKOM UB Melalui</string>
+    <string name="counselingpopsub1">Google Form</string>
+    <string name="counselingpopsub2">WhatsApp</string>
+    <string name="counselingpoperror">Aplikasi WhatsApp Tidak Tersedia</string>
+
+    <string name="profilebtn1">Ubah Bahasa</string>
+    <string name="profilebtn2">Arsip Skrining</string>
+    <string name="profilebtn3">Tentang FilkomSoul</string>
+
+    <string name="archivetitle">Arsip Skrining</string>
+    <string name="archive1">Tanggal:</string>
+    <string name="exit">Apakah kamu yakin ingin keluar dari aplikasi?</string>
+    <string name="exit2">Apakah kamu yakin ingin keluar dari tes skrining? Progress akan hilang</string>
+
+    <string name="abouttitle">Tentang FilkomSoul</string>
+    <string name="aboutsubtitle1">Apa itu FilkomSoul?</string>
+    <string name="aboutsubtitle2">Pembuat FilkomSoul</string>
+    <string name="aboutcontent1">FilkomSoul adalah aplikasi yang dikembangkan sebagai bagian dari penelitian skripsi mahasiswa Fakultas Ilmu Komputer, Universitas Brawijaya. Aplikasi ini untuk mahasiswa FILKOM UB yang memerlukan skrining kesehatan mental, edukasi kesehatan mental, serta integrasi dengan layanan konseling FILKOM UB. Aplikasi ini dapat terlaksana berkat bantuan dari pihak Layanan Konseling, para dosen dan tendik, serta tim IT FILKOM UB.</string>
+    <string name="aboutcontent2">Alexander Rama Giofran Teknik Informatika 2020 Bandung, 28 Maret 2002 Android Developer</string>
+    <string name="aboutcontent3">Hubungi saya melalui</string>
+
+    <string name="screeningguuide">Panduan Pengerjaan</string>
+    <string name="guidecontent">30 soal untuk mengukur kelesuan, motivasi akademik, serta emosi dengan opsi jawaban:</string>
+    <string name="onecontent">Hampir Tidak Pernah \n(Beberapa kali dalam setahun / kurang)</string>
+    <string name="twocontent">Cukup Jarang \n(Sebulan sekali / kurang)</string>
+    <string name="threecontent">Kadang-kadang \n(Beberapa kali dalam sebulan)</string>
+    <string name="fourcontent">Sering \n(Sekali seminggu) </string>
+    <string name="fivecontent">Sangat Sering \n(Beberapa kali dalam seminggu)</string>
+    
+    <string-array name="question">
+        <item>Saya lebih lelah dari biasanya</item>
+        <item>Saya tidak memiliki energi untuk belajar pada level saya biasanya</item>
+        <item>Energi saya rendah</item>
+        <item>Saya merasa sulit untuk berkonsentrasi</item>
+        <item>Saya tidak merasa sudah istirahat, bahkan setelah tidur</item>
+        <item>Tantangan yang saya hadapi dalam kuliah membuat saya kewalahan</item>
+        <item>Suasana hati saya mempengaruhi kemampuan saya untuk melaksanakan tugas yang diberikan</item>
+        <item>Pekerjaan sehari-hari membutuhkan waktu lebih lama dari biasanya</item>
+        <item>Studi pendidikan saya terganggu oleh pikiran-pikiran yang mengganggu</item>
+        <item>Saya bertanya-tanya apakah hidup itu layak dijalani</item>
+        <item>Saya merasa tidak berharga</item>
+        <item>Saya sudah berpikir untuk bunuh diri</item>
+        <item>Saya merasa tidak ada yang peduli tentang saya</item>
+        <item>Saya merasa hampa</item>
+        <item>Saya merasa sedih</item>
+        <item>Saya khawatir, saya tidak bisa berbuat apapun</item>
+        <item>Kegiatan yang dulu saya nikmati, sekarang tidak lagi menarik minat saya</item>
+        <item>Saya merasa seperti saya tidak bisa mengendalikan emosi</item>
+        <item>Saya menghabiskan lebih banyak waktu sendirian daripada biasanya</item>
+        <item>Saya merasa kecewa pada diri saya sendiri</item>
+        <item>Saya merasa minder ketika saya berada di sekitar orang lain</item>
+        <item>Saya tidak mengatasi masalah dengan baik</item>
+        <item>Saya berpikir orang lain lebih baik dari saya</item>
+        <item>Saya tidak punya keinginan untuk kuliah</item>
+        <item>Saya jarang menghadiri kuliah seperti dulu</item>
+        <item>Saya tidak merasa termotivasi untuk belajar</item>
+        <item>Saya merasa pergi kuliah tidak ada gunanya</item>
+        <item>Saya mengalami masalah saat ingin mengerjakan tugas</item>
+        <item>Saya tidak merasa belajar semenarik dulu</item>
+        <item>Saya mengalami masalah dalam menyelesaikan tugas belajar</item>
+    </string-array>
+
+    <string name="summary4">Hasil pengisian kuesioner depresi menunjukkan anda mengalami gejala depresi yang sangat berat berdasarkan hasil skor antara 119 sampai 150. Anda mengalami kesulitan sangat berat dalam %1$s dalam diri. Melakukan konseling dan bantuan professional sangat dibutuhkan. Segera hubungi ahli kesehatan mental, teman, atau keluarga untuk mendapatkan dukungan dan bimbingan.</string>
+    <string name="summary3">Hasil pengisian kuesioner depresi menunjukkan anda mengalami gejala depresi yang berat berdasarkan hasil skor antara 95 sampai 118. Anda mulai berjuang dan menghadapi tantangan %1$s dalam diri. Sangat penting untuk memprioritaskan kesehatan mental anda, mencari bantuan profesional, dan berkomunikasi dengan orang terkasih.</string>
+    <string name="summary2">Hasil pengisian kuesioner depresi menunjukkan anda mengalami gejala depresi yang sedang berdasarkan hasil skor antara 74 sampai 94. Anda mulai mendapati kendala %1$s dalam diri. Dianjurkan untuk memperhatikan Kesehatan mental anda, menyesuaikan gaya hidup, dan mencari dukungan dari teman, keluarga, atau ahli kesehatan mental.</string>
+    <string name="summary1">Hasil pengisian kuesioner depresi menunjukkan anda mengalami gejala depresi yang ringan berdasarkan hasil skor dibawah 73. Anda masih dapat mengelola %1$s dalam diri. Penting untuk terus mempraktikkan kebiasaan kesehatan mental yang baik dan mencari dukungan jika diperlukan.</string>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorSecondaryContainer"
+    tools:context=".ui.auth.RegistActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="156dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/interbold"
+        android:text="@string/registTitle"
+        android:textColor="?colorOnSecondary"
+        android:layout_marginTop="12dp"
+        android:textSize="44sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input1"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_input"
+        android:hint="@string/registInput"
+        android:fontFamily="@font/interregular"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/vector"
+        android:drawableTint="?colorPrimary"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextView"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input2"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/vector_1"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/interregular"
+        android:hint="@string/registInput2"
+        android:paddingStart="14dp"
+        android:textColorHint="@color/gray"
+        android:textSize="16sp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input2">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/choose1"
+            android:layout_width="150dp"
+            android:layout_height="52dp"
+            android:fontFamily="@font/sfproroundedheavy"
+            android:text="@string/app_name"
+            android:textColor="@color/scream"
+            android:textSize="56sp"
+            android:background="@drawable/custom_input"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shapeableImageView">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/gray"
+                android:fontFamily="@font/interregular"
+                android:textSize="16sp"
+                android:buttonTint="?colorPrimary"
+                android:text="@string/registChoose1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/choose2"
+            android:layout_width="150dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/sfproroundedheavy"
+            android:orientation="horizontal"
+            android:text="@string/app_name"
+            android:textColor="@color/scream"
+            android:textSize="56sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shapeableImageView">
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/gray"
+                android:fontFamily="@font/interregular"
+                android:textSize="16sp"
+                android:buttonTint="?colorPrimary"
+                android:text="@string/registChoose2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/custom_input2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:layout_marginStart="8dp"
+            android:textColor="?colorOnSecondary"
+            android:fontFamily="@font/interregular"
+            android:textSize="15sp"
+            android:paddingStart="4dp"
+            android:buttonTint="?colorPrimary"
+            android:text="@string/registAfirm" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDaftar"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="?colorPrimaryContainer"
+        android:text="@string/btnDaftar"
+        android:textColor="?colorSecondaryContainer"
+        android:fontFamily="@font/intersemibold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

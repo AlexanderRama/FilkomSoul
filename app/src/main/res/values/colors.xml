@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pnavy">#054A91</color>
+    <color name="pdark">#022A53</color>
+    <color name="pblue">#3E7CB1</color>
+    <color name="pbluelight">#B1C9E5</color>
+    <color name="sorange">#FF731D</color>
+    <color name="scream">#F7C59F</color>
+    <color name="screamlight">#FFF7E9</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#999999</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
